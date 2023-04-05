@@ -1,0 +1,46 @@
+/* Regular customers */
+
+.customers {
+  .customers__title {
+    color: $color-titles;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 44px;
+  }
+
+  .customers__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .customers__item {
+    flex-basis: calc((100% - 150px) / 6);
+  }
+}
+
+.customers__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: $color-icons;
+  cursor: pointer;
+  width: 170px;
+  height: 81px;
+  border: 2px solid $color-icons;
+  color: $color-titles;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  transition: fill 250ms $cubic;
+
+  &:hover {
+    fill: $color-primary;
+    border: 2px solid $color-primary;
+  }
+}

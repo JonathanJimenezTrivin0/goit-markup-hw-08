@@ -1,0 +1,83 @@
+// Styles features services
+
+.features {
+  .features__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .features__icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-color: $color-background;
+    width: 270px;
+    height: 120px;
+  }
+  .features__title {
+    color: $color-titles;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+  }
+  .features__paragraph {
+    color: $color-detail;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+}
+
+// Services catalog
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .services__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .services__title {
+    color: $color-titles;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .services__item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+  .services__card {
+    width: 370px;
+    height: 294px;
+  }
+
+  .services__footer {
+    color: $color-secondary;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 370px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgba(47, 48, 58, 0.8);
+    position: relative;
+    top: -20%;
+  }
+}

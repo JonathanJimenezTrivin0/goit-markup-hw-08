@@ -1,0 +1,88 @@
+// Styles Team
+
+.team {
+  background-color: $color-background;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .team__list {
+    background-color: $color-background;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team__title {
+    color: $color-titles;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .team__card {
+    width: 270px;
+    height: 400px;
+    background: $color-secondary;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team__footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team__name {
+    color: $color-titles;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .team__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    color: $color-detail;
+    font-family: 'Roboto';
+  }
+  .team__svg {
+    display: flex;
+  }
+}
+
+.team__card > img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+// Styles icon social media
+
+.team__link {
+  width: 44px;
+  height: 44px;
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  fill: $color-icons;
+  cursor: pointer;
+  transition: fill 250ms $cubic;
+
+  &:hover {
+    fill: $color-secondary;
+  }
+
+  &--circle:hover {
+    border-radius: 50%;
+    background-color: $color-primary;
+  }
+}
