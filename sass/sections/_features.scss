@@ -1,35 +1,84 @@
 // Styles features services
 
 .features {
+}
+.features__title {
+  color: $color-titles;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 30px;
+}
+.features__paragraph {
+  color: $color-detail;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.features__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+@media screen and (min-width: 480px) {
   .features__list {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     gap: 30px;
   }
+}
+
+.features__item {
+}
+
+@media screen and (min-width: 768px) {
+  .features__item {
+    flex-basis: calc((100% - 60px) / 2);
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__item {
+    flex-basis: calc((100% - 120px) / 4);
+    gap: 30px;
+  }
+}
+
+.features__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: $color-background;
+  height: 120px;
+}
+
+// icon features 480+
+
+@media screen and (min-width: 480px) {
   .features__icon {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 4px;
-    background-color: $color-background;
+    width: 450px;
+  }
+}
+
+// icon features 768+
+
+@media screen and (min-width: 768px) {
+  .features__icon {
+    width: 354px;
+  }
+}
+
+// Icon feaures 1200+
+@media screen and (min-width: 1200px) {
+  .features__icon {
     width: 270px;
-    height: 120px;
-  }
-  .features__title {
-    color: $color-titles;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 30px;
-  }
-  .features__paragraph {
-    color: $color-detail;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 10px;
   }
 }
 

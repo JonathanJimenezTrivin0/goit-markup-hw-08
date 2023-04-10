@@ -55,9 +55,40 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+// 480 +
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+//  768 +
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+// 1200 +
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* 94px */
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .item {

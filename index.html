@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,6 +20,7 @@
   <body>
     <!-- Main navigation -->
     <header class="header">
+      <!-- Mobile menu -->
       <div class="header__container container">
         <nav class="header__nav">
           <a href="./index.html" class="logo">WebStudio</a>
@@ -62,13 +63,12 @@
           </li>
         </ul>
       </div>
-      <!-- Mobile menu -->
       <button
         class="menu-toggle js-open-menu"
         aria-expanded="false"
         aria-controls="mobile-menu"
       >
-        <svg width="24" height="16">
+        <svg class="icon__menu" width="24" height="16">
           <use href="/images/icon-svg/icon-mobile.svg#icon-menu"></use>
         </svg>
       </button>
@@ -606,7 +606,9 @@
       </ul>
 
       <ul class="mobile__social list">
-        <li><a href="#" class="mobile__social__media">Instagram</a></li>
+        <li class="item">
+          <a href="#" class="mobile__social__media">Instagram</a>
+        </li>
         <li><a href="#" class="mobile__social__media">Twitter</a></li>
         <li><a href="#" class="mobile__social__media">Facebook</a></li>
         <li><a href="#" class="mobile__social__media">LinkedIn</a></li>
