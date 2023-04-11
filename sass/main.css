@@ -126,6 +126,11 @@ ul {
   border-radius: 2px;
 }
 
+@media (max-width: 768px) {
+  .header__list {
+    display: none;
+  }
+}
 .header__link {
   color: #212121;
   font-family: "Roboto";
@@ -182,6 +187,11 @@ ul {
     flex-wrap: wrap;
   }
 }
+@media (max-width: 768px) {
+  .contact {
+    display: none;
+  }
+}
 .contact__icon {
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -220,7 +230,7 @@ ul {
 
 .icon__menu {
   position: absolute;
-  left: 92%;
+  right: 32px;
 }
 
 .menu-container {
