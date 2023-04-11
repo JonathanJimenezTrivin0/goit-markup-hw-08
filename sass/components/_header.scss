@@ -103,6 +103,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+}
+
 // Styles header icons
 .contact__icon {
   margin-right: 10px;
@@ -134,12 +140,6 @@
 
 @media (min-width: 768px) {
   .menu-toggle {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .header__container {
     display: none;
   }
 }
