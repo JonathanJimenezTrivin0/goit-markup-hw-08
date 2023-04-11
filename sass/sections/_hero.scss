@@ -1,7 +1,12 @@
 // Styles main
 .hero {
   max-width: 480px;
-  background-image: url(/images/hero-mobile.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-mobile.jpg);
+
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
