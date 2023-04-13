@@ -54,6 +54,14 @@
     fill: $color-primary;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 600px;
+  }
+}
+
 .modal__svg {
   position: absolute;
   left: 15px;
@@ -121,6 +129,12 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .modal__input {
+    width: 370px;
+  }
+}
+
 .modal__commet {
   padding-top: 12px;
 }
@@ -144,6 +158,12 @@
   &:hover {
     border-color: $color-primary;
     outline: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal__textarea {
+    width: 370px;
   }
 }
 
