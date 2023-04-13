@@ -118,6 +118,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .contact__link {
+    padding: 5px;
+  }
+}
+
 // Styles header icons
 .contact__icon {
   margin-right: 10px;
