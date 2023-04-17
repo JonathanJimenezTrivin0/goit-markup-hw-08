@@ -40,6 +40,44 @@
   }
 }
 
+// Cards 1200+
+
+@media screen and (max-width: 1200px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+
+// Card item 1200
+
+@media screen and (max-width: 1200px) {
+  .card__item {
+    flex-basis: calc((100% - 60px) / 2);
+    gap: 30px;
+  }
+}
+
+// Card item 768
+
+@media screen and (max-width: 768px) {
+  .card__item {
+    flex-basis: calc((100% - 90px) / 1);
+    gap: 30px;
+  }
+}
+
+// Card item 768
+
+@media screen and (max-width: 480px) {
+  .card__item {
+    flex-basis: calc((100% - 90px) / 1);
+    gap: 30px;
+  }
+}
+
 .card__link {
 }
 
@@ -58,6 +96,33 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+  }
+}
+
+// Card image 1200-
+
+@media screen and (max-width: 1200px) {
+  .card__image {
+    width: 354px;
+    height: 295px;
+  }
+}
+
+// Card image 768-
+
+@media screen and (max-width: 768px) {
+  .card__image {
+    width: 450px;
+    height: 295px;
+  }
+}
+
+// Card image 480-
+
+@media screen and (max-width: 480px) {
+  .card__image {
+    width: 450px;
+    height: 295px;
   }
 }
 
@@ -97,6 +162,24 @@
   letter-spacing: 0.06px;
 }
 
+// Card proyect 1200-
+
+@media screen and (max-width: 1200px) {
+  .card__proyect {
+    width: 306px;
+    height: 36px;
+  }
+}
+
+// Card proyect 768-
+
+@media screen and (max-width: 768px) {
+  .card__proyect {
+    width: 402px;
+    height: 36px;
+  }
+}
+
 .card__paragraph {
   color: $color-detail;
   font-family: 'Roboto';
@@ -104,4 +187,38 @@
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03px;
+}
+
+// Card paragraf 1200-
+
+@media screen and (max-width: 1200px) {
+  .card__proyect {
+    width: 306px;
+    height: 30px;
+  }
+}
+
+// Card paragraf 768-
+
+@media screen and (max-width: 768px) {
+  .card__proyect {
+    width: 402px;
+    height: 30px;
+  }
+}
+
+.images__portfolio {
+}
+@media screen and (max-width: 1200px) {
+  .images__portfolio {
+    width: 354px;
+    height: 295px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .images__portfolio {
+    width: 450px;
+    height: 295px;
+  }
 }
